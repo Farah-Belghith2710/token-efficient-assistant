@@ -1,0 +1,42 @@
+[
+  {
+    "k": 1,
+    "facts_retrieved_percent": 58,
+    "avg_retrieved_characters": 263
+  },
+  {
+    "k": 2,
+    "facts_retrieved_percent": 92,
+    "avg_retrieved_characters": 525
+  },
+  {
+    "k": 3,
+    "facts_retrieved_percent": 92,
+    "avg_retrieved_characters": 792
+  },
+  {
+    "k": 4,
+    "facts_retrieved_percent": 92,
+    "avg_retrieved_characters": 1089
+  },
+  {
+    "k": 5,
+    "facts_retrieved_percent": 96,
+    "avg_retrieved_characters": 1349
+  },
+  {
+    "k": 6,
+    "facts_retrieved_percent": 96,
+    "avg_retrieved_characters": 1653
+  },
+  {
+    "k": 7,
+    "facts_retrieved_percent": 100,
+    "avg_retrieved_characters": 1952
+  },
+  {
+    "k": 8,
+    "facts_retrieved_percent": 100,
+    "avg_retrieved_characters": 2208
+  }
+]

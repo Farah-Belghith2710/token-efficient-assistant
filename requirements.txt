@@ -1,0 +1,5 @@
+groq>=1.0
+python-dotenv
+scikit-learn
+pandas
+matplotlib

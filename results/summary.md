@@ -1,0 +1,8 @@
+| setting | questions | input_tokens | reasoning_tokens | answer_tokens | total_tokens | seconds | groq_seconds | accuracy_% | citations_% | false_refusals | correct_refusals_% | cut_off | tokens_saved_% |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| baseline_k8 | 30 | 701 | 122 | 40 | 864 | 4.59 | 0.23 | 100 | 100 | 0 | 100 | 0 | 0.0 |
+| k5 | 30 | 494 | 137 | 42 | 673 | 5.01 | 0.23 | 96 | 100 | 0 | 100 | 0 | 22.0 |
+| k3 | 30 | 358 | 133 | 36 | 526 | 3.06 | 0.24 | 88 | 92 | 2 | 100 | 0 | 39.0 |
+| k8_short | 30 | 716 | 16 | 34 | 767 | 6.4 | 0.11 | 100 | 100 | 0 | 100 | 0 | 11.0 |
+| optimized_k5_short | 30 | 509 | 18 | 36 | 563 | 4.17 | 0.11 | 96 | 96 | 0 | 100 | 0 | 35.0 |
+| optimized_k5_short_repeat | 30 | 509 | 18 | 35 | 562 | 3.97 | 0.1 | 96 | 100 | 0 | 100 | 0 | 35.0 |
