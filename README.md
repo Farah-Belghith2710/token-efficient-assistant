@@ -1,7 +1,7 @@
 # Using fewer tokens without losing answer quality
 
 This is my work for the imec internship exercise **2026-INT-298 (Token-efficient AI-agent design)**.
-The full report is in [`report/report.pdf`](report/report.pdf).
+The full report is in [`report/report_tokens.pdf`](report/report_tokens.pdf).
 
 ## The idea
 
