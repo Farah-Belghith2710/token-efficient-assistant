@@ -1,7 +1,7 @@
 # Using fewer tokens without losing answer quality
 
 This is my work for the imec internship exercise **2026-INT-298 (Token-efficient AI-agent design)**.
-The full report is in [`report/report.pdf`](report/report.pdf).
+The full report is in [`report/report_tokens.pdf`](report/report_tokens.pdf).
 
 ## The idea
 
@@ -84,7 +84,3 @@ What I learned:
 - The optimized version used **35% fewer tokens** and **46% less money**, and it got only one more question wrong (q21). My free check had already predicted this before any LLM call.
 - The short-answer settings barely made the visible answers shorter. The big saving came from the model's hidden thinking, which went from 122 to 16 tokens. Output tokens cost 4 times more than input tokens, so this saved more money than sending fewer passages.
 - With only 3 sections, the score dropped to 21 out of 24, so that was too few. But when a fact was missing, the model said "I couldn't find this" instead of making something up.
-
-## How I used AI
-
-I used Claude (Anthropic) as a helper. It wrote the code with me and helped fix the bugs, helped me find research papers, made the first drafts of the fake documents and test questions, and helped me write the report. I ran the experiment myself with my own Groq key, checked every answer whose score changed, and went through the code until I could explain each part.
